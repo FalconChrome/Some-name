@@ -30,6 +30,6 @@ class Circles(QWidget):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    ex = Example()
+    ex = Circles()
     ex.show()
     sys.exit(app.exec())
