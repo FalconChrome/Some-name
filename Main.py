@@ -2,7 +2,7 @@ import sys
 from random import randint
 
 from PyQt5 import uic
-from PyQt5.Gui import QPainter, Qt
+from PyQt5.QtGui import QPainter, Qt
 from PyQt5.QtWidgets import QApplication, QWidget
 
 SCREEN_SIZE = [400, 400]
